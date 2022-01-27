@@ -7,10 +7,10 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
-          "strict": true
+          "strict": false
         }
       },
-      "root": "",
+      "root": " ",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+</head>
+
+<body>
+
+<div>
+    <h2>User Details</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID </th>
+                <th>Name </th>
+                <th>surname </th>
+                <th>Pincode </th>
+                <th>  doj: </th>
+                <th>  dob: </th>
+                
+                <th>email:  </th>
+                <th>password:</th>
+                <th>phoneno:</th> 
+                <th> deleted:</th>
+                
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of user">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.surname}}</td>
+                <td>{{user.pincode}}</td>
+                <td>{{user.doj}}</td>
+                <td>{{user.dob}}</td>
+                <td>{{user.email}}</td>
+                <td>{{user.password}}</td>
+                <td>{{user.phoneno}}</td>
+                <td>{{user.deleted}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
